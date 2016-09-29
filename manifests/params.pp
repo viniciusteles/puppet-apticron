@@ -1,6 +1,6 @@
 class apticron::params {
   case $::lsbdistcodename {
-    'lenny', 'squeeze', 'maverick', 'natty', 'precise': {
+    'lenny', 'squeeze', 'maverick', 'natty', 'precise', 'xenial': {
       $apticron    = ''
       $listchanges = ''
     }
